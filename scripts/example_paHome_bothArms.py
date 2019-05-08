@@ -5,7 +5,7 @@
 import rospy
 import baxter_interface
 from baxter_interface import CHECK_VERSION
-from birl_recorded_motions import paHomePosition as pa 
+from birl_recorded_motions import paHome_doubleArm as pa 
 
 def shutdown():
     rospy.loginfo("Node has been terminated. Closing gracefully.")
