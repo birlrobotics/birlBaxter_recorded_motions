@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # Makes both the right and the left arm go home from which ever position they are at.
 #import pdb 
