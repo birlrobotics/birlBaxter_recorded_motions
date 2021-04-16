@@ -30,6 +30,6 @@ class paHome_rightArm():
         r_angles = r_limb.joint_angles()
 
         # Move home
-        print 'Moving home...'
+        print('Moving home...')
         r_limb.move_to_joint_positions(r_home_angles)
-        print 'Finished moving home...'
+        print('Finished moving home...')

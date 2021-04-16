@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 # Makes both the right and the left arm go home from which ever position they are at.
 #import pdb 
@@ -37,7 +37,7 @@ class GoHome():
         l_angles = l_limb.joint_angles()
 
         # Move home
-        print 'Moving home...'
+        print('Moving home...')
         r_limb.move_to_joint_positions(r_home_angles)
         l_limb.move_to_joint_positions(l_home_angles)
-        print 'Finished moving home...'
+        print('Finished moving home...')
